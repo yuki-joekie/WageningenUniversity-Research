@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/*a {
+  text-decoration: none;
+  color: white;
+}*/
+*:not(.announce1) :not(.ranking){
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+.header {
+  height: 45px;
+  width: 100%;
+  background-color:white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.logo {
+  width: 200px;
+  margin: 20px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.header_right {
+  float: right;
+  text-align: right;
+}
+.fb-icon {
+  font-size: 15px;
+  padding-right: 4px;
+  color: gray;
+}
+
+.right_item {
+  font-size: 10px;
+  float: right;
+  padding-top: 5px;
+}
+
+#sbox1{
+  max-width:300px;
+  height:50px;
+  border-radius:2px;
+  outline:0;
+  margin-top: 5px;
+  margin-bottom:5px;
+  background:#eee;
+  float: right;
+  }
+
+.top-wrapper {
+  height:549px;
+  background-image: url("images/main-campus.jpg");
+  background-size:cover;
+  position: relative;
+}
+
+.container {
+  font-size: 18px;
+  color: white;
+  padding: 40px 30px;
+  letter-spacing: 5px;
+  position: absolute;
+  text-align: center;
+}
+
+.btn-wrapper {
+  margin: 20px auto;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.btn-wrapper p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.wur {
+  background-color: #58b335;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.nav ul{
+  border:1px solid #58b335;
+  background-color: #58b335;
+  display:flex;
+  list-style: none;
+  font-size: 0;
+  box-sizing: border-box;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.nav ul li{
+  width:100%;
+  height:100%;
+  font-size: 11.8px;
+  border-left:1px solid lightgray;
+}
+
+.nav ul li:first-child{
+  border-left: 1px solid #58b335;
+}
+
+.nav ul li a{
+  text-decoration:none;
+  color:white;
+  font-weight: bold;
+  display:block;
+  width:100%;
+  padding:10px 0;
+}
+
+.nav ul li a:hover{
+  background-color: darkgreen;
+}
+
+.heading {
+
+}
+
+.introduction-wrapper {
+  padding: 40px 40px 50px 40px;
+  height:400px;
+  background-image: url("images/gray-bg.jpg");
+  background-size:cover;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.introduction-container {
+  width: 900px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.introduction {
+  text-align: center;
+  width: 75%;
+  background-color: white;
+  padding: 30px 30px 15px 30px;
+  margin: 30px auto 0px;
+}
+
+.introduction p {
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+
+.ranking-title {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ranking-wrapper {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.ranking {
+  width: 100%;
+  text-align:center;
+}
+
+.ranking-icon1 {
+  position: relative;
+  width: 31%;
+  height: auto;
+}
+
+.txt-contents1 {
+  width: 80%;
+  display: inline-block;
+  font-size: 12px;
+  color:black;
+  text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.announce-wrapper {
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+
+.announce1 {
+  width: 30%;
+  background-color: #acacac;
+  color: black;
+}
+
+.announce2 {
+  width: 30%;
+  background-color: #f3f3f3;
+  color: black;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.announce2 p{
+  font-size: 14px;
+}
+
+.span {
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.txt-contents2 {
+  color: #58b335;
+  font-size: 13pt;
+  text-decoration: underline;
+}
+
+.announce3 {
+  width: 30%;
+  color: black;
+}
+
+.announce3 a{
+  text-decoration: none;
+}
+
+.announce3 a:hover{
+  text-decoration: underline;
+  color: #58b335;
+}
+
+.andmore {
+  font-size: 17px;
+  color: #66cc99;
+  text-align: right;
+  padding-bottom: 30px;
+}
+
+.andmore a{
+  color: #66cc99;
+  text-decoration: none;
+}
+
+.andmore a:hover{
+  text-decoration: underline;
+  color: #66cc99;
+}
+
+.cla{
+  text-align: center;
+  width: 270px;
+  background-color:#9df375;
+  opacity: 0.6;
+  padding:10px;
+  position:relative;
+  z-index:0;
+}
+
+.studyholland {
+  height: 80px;
+  transform: rotate( 45deg );
+  text-align: right;
+  top: 0px;
+  right: 0px;
+  position: relative;
+  z-index:1;
+}
+
+.txt-contents3 {
+  color: #58b335;
+  font-size: 13pt;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.container_clearFix {
+  color:white;
+  background-color: #58b335;
+  padding-top: 20px;
+  padding-left: 9px;
+}
+
+.footer-column {
+  display: inline;
+  padding: 0 30px;
+  float: left;
+  text-align: left;
+}
+
+.footer-column a{
+  text-decoration: none;
+}
+
+.footer-column a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.floatRight {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  font-size: 12px;
+  color: white;
+}
